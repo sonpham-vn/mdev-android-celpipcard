@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/contentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/pretimeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prepare Time: "
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/spktimeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speak Time: "
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+</LinearLayout>
